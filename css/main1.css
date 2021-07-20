@@ -1,0 +1,183 @@
+#bgg{
+    background-color: rgb(230, 230, 230);
+  }
+
+.dd {
+    position: absolute;
+    z-index: 100111;
+    visibility: visible;
+}
+
+#ani {
+transition: transform 0.2s ease;
+box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+border-radius: 0;
+border: 0;
+margin-bottom: 1.5em;
+}
+
+#ani:hover {
+transform: scale(1.1);
+}
+
+#nav1{
+  opacity: 1;
+  font-size: 1.2vw;
+}
+
+.navbar {
+transition: top 0.5s ease;
+}
+
+.navbar-hide {
+top: -56px;
+}
+
+
+.wrapper{
+    position: static;
+    margin-left:40%;
+    margin-top: 50px;
+    max-width: 350px;
+    width: 100%;
+    background: #b4b4b4;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px #be4f4f;
+  }
+
+  .wrapper h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: full-width;
+    letter-spacing: 6.41px;
+    color: black;
+      font-family: sans-serif;
+      font-style: italic;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"]{
+    border: 1.5px solid #dd2e2e;
+    width: 100%;
+    padding: 10px;
+  }
+  .wrapper.drop.select{
+    width:120%;
+  }
+
+  .wrapper .btn .notifyme {
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    background: #dd2e2e;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5.2px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .wrapper .btn .notifyme:hover{
+    background-color: #a32f2f;
+    color: black;
+  }
+
+  .dropbtn {
+    background-color: #a32f2f;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .login-box{
+    width: 362px;
+    height:520px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:30px 30px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #8b8b8b;
+}
+.avatar{
+    width: 100px;
+    height:50px;
+    
+    position:absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+    
+}
+h1{
+    margin:0;
+    padding:0 0 10px;
+    text-align:center;
+    font-size:25px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body.sigin-body {
+  background-image: url('https://wallpaperaccess.com/full/1092594.jpg');
+  position: relative;
+    top: 0;
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+h1{
+  color: black;
+  font-size: 38px;
+}
+.container.signin-container {
+  margin-top: 4%;
+  max-width: 650px;
+}
+
+.card.signin-card {
+  padding: 40px 0px 20px;
+  background-color: #ffffffde;
+  box-shadow: 5px 5px 5px #fdcccc;
+  border-radius: 3%;
+}
+
+img.signin-img {
+  width: 180px;
+  height: 80px;
+  padding: 0 2rem 2rem;
+  margin: auto;
+  display: block;
+}
+
+form.sigin-form {
+  max-width: 350px;
+  margin: auto;
+}
+
+button.signin-btn {
+  background: rgb(199, 0, 0);
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
